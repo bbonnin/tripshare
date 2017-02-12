@@ -1,11 +1,16 @@
 <template>
   <div>
+    <md-toolbar>
+      <h1 class="md-title title"><md-icon>flight_takeoff</md-icon> Tripshare</h1>
+      <nuxt-link class="md-button md-primary" to="/">Trips</nuxt-link>
+    </md-toolbar>
     <nuxt/>
     <my-footer/>
   </div>
 </template>
 
 <script>
+import '~plugins/vue-material' //Comment this line in case of error 'document is not defined'
 import MyFooter from '~components/Footer.vue'
 
 export default {
@@ -16,37 +21,14 @@ export default {
 </script>
 
 <style>
-.container
-{
+.container {
   margin: 0;
   width: 100%;
   padding: 100px 0;
   text-align: center;
 }
 
-.button, .button:visited
-{
-  display: inline-block;
-  color: black;
-  letter-spacing: 1px;
-  background-color: #fff;
-  border: 2px solid #000;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 15px 45px;
-}
-
-.button:hover, .button:focus
-{
-  color: #fff;
-  background-color: #000;
-}
-
-.title
-{
-  color: #000;
-  font-weight: 300;
-  font-size: 2.5em;
-  margin: 0;
+.title {
+  /*flex: 1;*/
 }
 </style>

@@ -15,7 +15,8 @@
     "axios": "^0.15.3",
     "express": "^4.14.0",
     "mongodb": "^2.2.22",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "vue-material": "^0.7.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",

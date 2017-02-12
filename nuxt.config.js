@@ -10,17 +10,19 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic' },
+      { rel: 'stylesheet', href: '//fonts.googleapis.com/icon?family=Material+Icons' }
     ]
   },
   /*
   ** Global CSS
   */
-  css: ['~assets/css/main.css'],
+  css: ['~assets/css/main.css', 'vue-material/dist/vue-material.css'],
   /*
-  ** Add axios globally
+  ** Add axios and others libs globally
   */
   build: {
-    vendor: ['axios']
+    vendor: ['axios', 'vue-material']
   }
 }

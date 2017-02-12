@@ -1,15 +1,24 @@
 <template>
   <section class="container">
-    <img src="../assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
-    <h1 class="title">
-      Trip
-    </h1>
-    <h2 class="info">
-      {{ trip.name }}
-    </h2>
-    <nuxt-link class="button" to="/">
-      Trips
-    </nuxt-link>
+    <md-layout md-gutter>
+      <md-layout md-flex="50" md-flex-offset="25">
+        <md-card class="trip-card">
+          <md-card-header>
+            <div class="md-title">{{ trip.name }}</div>
+            <!--<div class="md-subhead">Subtitle here</div>-->
+          </md-card-header>
+
+          <md-card-content>
+            Description...
+          </md-card-content>
+
+          <md-card-actions>
+            <md-button>Action</md-button>
+            <md-button>Action</md-button>
+          </md-card-actions>
+        </md-card>
+      </md-layout>
+    </md-layout>
   </section>
 </template>
 
@@ -47,8 +56,7 @@ export default {
   margin: 0;
   margin-top: 10px;
 }
-.button
-{
-  margin-top: 30px;
+.trip-card {
+  width: 100%;
 }
 </style>
