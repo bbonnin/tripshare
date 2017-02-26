@@ -1,0 +1,147 @@
+[{
+  "name": "Canada (14 nuits)",
+  "total": 6220,
+  "type": "personal",
+  "flights": [{
+    "from": "Nantes",
+    "to": "Montreal",
+    "link": "",
+    "cost": 2700
+  }],
+  "hostels": [{
+    "name":"Musee Premieres Nations",
+    "location": "",
+    "nights": 2,
+    "link":"http://www.booking.com/hotel/ca/h-musee-premieres-nations-wendake-quebec.fr.html?aid=356931;label=metagha-link-localuniversalFR-hotel-76473_dev-desktop_los-1_bw-11_dow-Sunday_room-0_lang-fr_curr-EUR;sid=0a1c5eb10f7a1ce5d0ddd3c853d28ece;age=12;age=16;all_sr_blocks=7647302_88905455_0_0_0%2C7647302_88905455_0_0_0;checkin=2017-08-30;checkout=2017-09-01;dest_id=900040393;dest_type=city;dist=0;group_adults=2;group_children=2;highlighted_blocks=7647302_88905455_0_0_0;hpos=1;no_rooms=1;req_adults=2;req_age=12;req_age=16;req_children=2;room1=A%2CA%2C12%2C16;sb_price_type=total;srfid=befc51cf75078b547b57882afbf7cc836defa21aX1;type=total;ucfs=1&",
+    "cost":600
+  },{
+    "name":"Les Sommets",
+    "location": "Charlevoix",
+    "nights": 2,
+    "link":"https://www.expedia.fr/Charlevoix-Hotel-Les-Sommets-Charlevoix.h15711311.Description-Hotel?chkin=29%2F08%2F2017&chkout=31%2F08%2F2017&rm1=a2:c16:c12&regionId=6058003&sort=recommended&hwrqCacheKey=d939b23a-2fa9-4257-adf4-21f9ea76784aHWRQ1487799908722&vip=false&c=c7523762-caa7-4a5b-a9fc-c0c13e6ccd2c&&exp_dp=368.37&exp_ts=1487799911058&exp_curr=EUR&exp_pg=HSR",
+    "cost":370
+  },{
+    "name": "?",
+    "location": "Montreal",
+    "nights": 2,
+    "link": "",
+    "cost": 400
+  },{
+    "name": "?",
+    "location": "Quebec",
+    "nights": 1,
+    "link": "",
+    "cost": 200
+  },{
+    "name": "Cap au Leste",
+    "location": "",
+    "nights": 2,
+    "link":"http://www.booking.com/hotel/ca/cap-au-leste.fr.html?aid=356931;label=metagha-link-localuniversalFR-hotel-293892_dev-desktop_los-1_bw-11_dow-Sunday_room-0_lang-fr_curr-EUR;sid=0a1c5eb10f7a1ce5d0ddd3c853d28ece;sohad=1;checkin=2017-08-27;interval=1;track_spadnt=1",
+    "cost":300
+  },{
+    "name":"Auberge du trappeur",
+    "location": "",
+    "nights": 3,
+    "link": "http://aubergedutrappeur.com/",
+    "cost": 300
+  },{
+    "name": "?",
+    "location": "",
+    "nights": 2,
+    "link":"http://www.booking.com/searchresults.fr.html?aid=356931;label=metagha-link-localuniversalFR-hotel-293892_dev-desktop_los-1_bw-11_dow-Sunday_room-0_lang-fr_curr-EUR;sid=0a1c5eb10f7a1ce5d0ddd3c853d28ece;age=12;age=16;checkin_month=8;checkin_monthday=26;checkin_year=2017;checkout_month=8;checkout_monthday=28;checkout_year=2017;city=-1302714;class_interval=1;dest_id=900048931;dest_type=city;dtdisc=0;genius_rate=1;group_adults=2;group_children=2;highlighted_hotels=498000;hlrd=0;hyb_red=0;inac=0;label_click=undef;mcs=0;mih=0;nha_red=0;no_rooms=1;offset=0;postcard=0;qrhpp=e547387f11cc0533fc835300cd8cb5c5-hotel-0;redirected_'from'_city=0;redirected_'from'_landmark=0;redirected_'from'_region=0;req_age=12;req_age=16;room1=A%2CA%2C12%2C16;sb_price_type=total;search_pageview_id=72398fde447900aa;search_selected=0;src=searchresults;src_elem=sb;ss=%27H%C3%B4tel+Sacacomie;ss_all=0;ss_raw=%27H%C3%B4tel+Sacacomie;ssb=empty;sshis=0;srpos=1;origin=search",
+    "cost": 700
+  }],
+  "cars": [{
+    "from": "Montreal",
+    "to": "Montreal",
+    "link": "https://www.rentacar.fr",
+    "cost": 650
+  }]
+},{
+  "name":"Afrique du Sud (8 nuits)",
+  "links": [""],
+  "total": 5750,
+  "type": "personal",
+  "flights": [{
+    "from": "Paris",
+    "to": "Cape Town",
+    "cost": 3150
+  },{
+    "from": "Cape",
+    "to": "Durban",
+    "cost": 300
+  }],
+  "hostels": [ {
+    "name": "Esperanza guest house",
+    "location": "Cape Town",
+    "breakfast_included": true,
+    "nights": 3,
+    "link": "http://www.booking.com/searchresults.fr.html?aid=301664&label=za-cape-town-tI0O5SU_04kb0bMTl7rEQQS106735950004%3Apl%3Ata%3Ap11140%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-1549402460%3Alp9055521%3Ali%3Adec%3Adm&sid=0a1c5eb10f7a1ce5d0ddd3c853d28ece&sb=1&src=searchresults&src_elem=sb&error_url=http%3A%2F%2Fwww.booking.com%2Fsearchresults.fr.html%3Faid%3D301664%3Blabel%3Dza-cape-town-tI0O5SU_04kb0bMTl7rEQQS106735950004%253Apl%253Ata%253Ap11140%253Ap2%253Aac%253Aap1t1%253Aneg%253Afi%253Atikwd-1549402460%253Alp9055521%253Ali%253Adec%253Adm%3Bsid%3D0a1c5eb10f7a1ce5d0ddd3c853d28ece%3Bage%3D12%3Bage%3D16%3Bcheckin_month%3D8%3Bcheckin_monthday%3D21%3Bcheckin_year%3D2017%3Bcheckout_month%3D8%3Bcheckout_monthday%3D24%3Bcheckout_year%3D2017%3Bcity%3D-1217214%3Bclass_interval%3D1%3Bdtdisc%3D0%3Bgenius_rate%3D1%3Bgroup_adults%3D2%3Bgroup_children%3D2%3Bhlrd%3D0%3Bhyb_red%3D0%3Binac%3D0%3Blabel_click%3Dundef%3Bmcs%3D0%3Bmih%3D0%3Bnha_red%3D0%3Bno_rooms%3D1%3Boffset%3D0%3Bpostcard%3D0%3Bredirected_'from'_city%3D0%3Bredirected_'from'_landmark%3D0%3Bredirected_'from'_region%3D0%3Broom1%3DA%252CA%252C12%252C16%3Bsb_price_type%3Dtotal%3Bsrc%3Dcity%3Bsrc_elem%3Dsb%3Bss_all%3D0%3Bssb%3Dempty%3Bsshis%3D0%3Bssne_untouched%3DLe%2520Cap%26%3B&ss=Esperanza+Guest+House%2C+Le+Cap%2C+Le+Cap+occidental%2C+Afrique+du+Sud&ssne=Le+Cap&ssne_untouched=Le+Cap&city=-1217214&checkin_monthday=21&checkin_month=8&checkin_year=2017&checkout_monthday=24&checkout_month=8&checkout_year=2017&room1=A%2CA%2C12%2C16&no_rooms=1&group_adults=2&group_children=2&age=12&age=16&genius_rate=1&ss_raw=Le+Cap%2C+espe&ac_position=0&ac_langcode=fr&dest_id=257375&dest_type=hotel&search_pageview_id=24168dae661e0159&search_selected=true&search_pageview_id=24168dae661e0159&ac_suggestion_list_length=5&ac_suggestion_theme_list_length=0&track_sssu=1&track_hp_back_button=1#hotel_257375-back",
+    "cost": 730
+  },{
+    "name":"Falaza",
+    "nights": 1,
+    "cost": 200
+  },{
+    "name": "Mantenga Lodge",
+    "location": "Ezulwini, Swaziland",
+    "nights": 1,
+    "link": "http://www.booking.com/hotel/sz/mantenga-lodge.fr.html?aid=301664;label=za-cape-town-tI0O5SU_04kb0bMTl7rEQQS106735950004%3Apl%3Ata%3Ap11140%3Ap2%3Aac%3Aap1t1%3Aneg%3Afi%3Atikwd-1549402460%3Alp9055521%3Ali%3Adec%3Adm;sid=c47f8f395d67101def18d0803f9fc0d7;age=12;age=16;all_sr_blocks=79562105_94187548_0_1_0%2C79562105_94187548_0_1_0;checkin=2017-08-25;checkout=2017-08-26;dest_id=-1331544;dest_type=city;dist=0;group_adults=2;group_children=2;highlighted_blocks=79562105_94187548_0_1_0;hpos=1;no_rooms=1;req_adults=2;req_age=12;req_age=16;req_children=2;room1=A%2CA%2C12%2C16;sb_price_type=total;srfid=a96906802ee3cddfc99b48b99909c0cea0ee32f0X1;type=total;ucfs=1&",
+    "cost": 150
+  }, {
+    "name": "Stille Woning",
+    "nights": 2,
+    "location":"White River",
+    "link": "https://www.agoda.com/en-gb/aaa-stille-woning-guest-house/hotel/white-river-za.html?cid=1742069",
+    "cost": 700
+  },{
+    "name": "Royal Hotel",
+    "location": "Pilgrim's Rest",
+    "link": "https://www.tripadvisor.fr/Hotel_Review-g312635-d306245-Reviews-The_Royal_Hotel-Pilgrim_s_Rest_Mpumalanga.html",
+    "nights": 1,
+    "cost": 350
+  }],
+  "cars": [{
+    "from":"Cape town",
+    "to": "Cape town",
+    "cost": 80
+  },{
+    "from":"durban",
+    "to": "johanesbourg",
+    "cost": 100
+  }]
+},{
+  "name":"AFS (balade sud africaine - 8j)",
+  "img": "http://i.strz.fr/trex/rio/ocean/photos/VTF-CIRCUITS/originaux/AfriqueduSud/BaladeSudAfrANN3/carte.jpg?TS=16011100",
+  "links": ["http://www.vacancestransat.fr/vacances/voyage_Afrique_du_Sud_Autotour_Balade_Sud_Africaine_-BaladeSudAfrANN3.aspx?frm=lst"],
+  "total": 7360,
+  "type": "operator",
+  "operator": "Vacances Transat"
+},{
+  "name":"AFS (balade sud africaine - 11j)",
+  "img": "http://i.strz.fr/trex/rio/ocean/photos/VTF-CIRCUITS/originaux/AfriqueduSud/BaladeSudAfrANN3/carte.jpg?TS=16011100",
+  "links": ["http://www.vacancestransat.fr/vacances/voyage_Afrique_du_Sud_Autotour_Balade_Sud_Africaine_-BaladeSudAfrANN3.aspx?frm=lst"],
+  "total": 8400,
+  "type": "operator",
+  "operator": "Vacances Transat"
+},{
+  "name":"Canada (ma cabane au Canada - 13j)",
+  "img": "http://i.strz.fr/trex/rio/ocean/photos/VTF-CIRCUITS/originaux/Canada/Cabane/carte.jpg?TS=16011100",
+  "links": ["http://www.vacancestransat.fr/vacances/voyage_Canada_Autotour_Ma_cabane_au_Canada_-Cabane.aspx?frm=lst"],
+  "total": 8400,
+  "type": "operator",
+  "operator": "Vacances Transat"
+},{
+  "name":"Norvège (route des trolls - 14j)",
+  "links": ["http://www.vacancestransat.fr/vacances/voyage_Norvege_Autotour_La_route_des_trolls_-_Cle_en_main_-LaroutedestrollsPKG.aspx?frm=lst"],
+  "total": 6600,
+  "type": "operator",
+  "operator": "Vacances Transat"
+},{
+  "name":"Ecosse (merveilles de l'ecosse)",
+  "img": "http://i.strz.fr/trex/rio/ocean/photos/VTF-CIRCUITS/originaux/Ecosse/MerveillesecossePKG/carte.jpg?TS=16011100",
+  "links": ["http://www.vacancestransat.fr/vacances/voyage_Ecosse_Autotour_Merveilles_d_Ecosse_-_Cle_en_main_-MerveillesecossePKG.aspx?frm=lst"],
+  "total": 5900,
+  "type": "operator",
+  "operator": "Vacances Transat"
+}]

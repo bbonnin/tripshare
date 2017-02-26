@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <md-layout md-gutter>
-      <md-layout md-flex="50" md-flex-offset="25">
+      <md-layout md-flex="70" md-flex-offset="15">
         <md-whiteframe md-tag="section" class="trip-panel">
           <h1 class="md-title trips-title">Trips</h1>
           <md-list>
@@ -9,11 +9,14 @@
               <div class="md-list-item-container">
                 <md-icon>language</md-icon> 
                 <span>{{ trip.name }}</span>
-                <nuxt-link :to="{ name: 'id', params: { id: index }}" 
+                <md-chip :class="'trip-price-' + trip.type">{{ trip.total }} €</md-chip>
+                <div style="margin-left:20px">
+                <nuxt-link :to="{ name: 'id', params: { id: trip.id }}" 
                     tag="button"
                     class="md-button md-fab md-mini md-primary md-icon-button md-list-action md-theme-default">
                   <md-icon class="trip-action">edit</md-icon>
                 </nuxt-link>
+                </div>
               </div>
             </md-list-item>
           </md-list>
@@ -42,6 +45,11 @@ export default {
 </script>
 
 <style scoped>
+.trip-price-operator {
+  background-color: #ff5722!important;
+  color: rgba(255, 255, 255, .87);
+}
+
 .trip-action {
   color: rgba(255, 255, 255, .87);
   margin: auto;

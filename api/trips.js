@@ -1,60 +1,45 @@
 var router = require('express').Router(),
     mongo = require('mongodb').MongoClient,
+    ObjectId = require('mongodb').ObjectId,
     co = require('co'),
     assert = require('assert')
 
-co(function*() {
-  var url = 'mongodb://localhost:27017/tripshare'
-  var db = yield mongo.connect(url)
-  db.close()
-}).catch(function(err) {
-  console.log(err.stack);
-});
+function logErr(err) {
+  console.log(err.stack)
+}
 
-const trips = [{
-  name:'Ecosse',
-  dates: {
-    from: '2017-08-12',
-    to: '2017-09-03'
-  },
-  flights: [{
-    from: 'Paris, FR',
-    to: 'Edimburgh, UK',
-    dates: {
-      from: '2017-08-12T22:00:00',
-      to: '2017-09-03T23:00:00'
-    },
-    cost: 0,
-    links: []
-  }],
-  timeline: [{
-    days: {
-      from: '2017-08-12',
-      to: '2017-08-13',
-      hotel: {
-        location: '',
-        links: [''],
-        cost: 0
-      }
-    }
-  }]
-}]
+co(function*() {
+  let url = 'mongodb://localhost:27017/tripshare'
+  db = yield mongo.connect(url)
+  //db.close()
+}).catch(logErr);
 
 
 /* GET trips listing. */
 router.get('/trips', function (req, res, next) {
-  res.json(trips)
+  co(function*() {
+    let trips = yield db.collection('trips').find().limit(20).toArray()
+    trips.forEach(trip => {
+      trip.id = trip._id.toString()
+      delete trip._id
+    })
+    res.json(trips)
+  }).catch(logErr)
 })
 
 /* GET trip by ID. */
 router.get('/trips/:id', function (req, res, next) {
-  var id = parseInt(req.params.id)
-  
-  if (id >= 0 && id < trips.length) {
-    res.send(trips[id])
-  } else {
-    res.sendStatus(404)
-  }
+  co(function*() {
+    let id = req.params.id
+    let trip = yield db.collection('trips').findOne({ _id: new ObjectId(id) })
+    if (trip) {
+      trip.id = trip._id.toString()
+      delete trip._id
+      res.send(trip)
+    } else {
+      res.sendStatus(404)
+    }
+  }).catch(logErr)
 })
 
 module.exports = router
