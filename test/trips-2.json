@@ -17,5 +17,12 @@
   "total": 14000,
   "type": "operator",
   "operator": "Voyageurs du monde"
+},{
+  "name":"La Reunion Hôtel Blue Margouillat (12 nuits)",
+  "img": "https://photos.marmara.com/ProduitPhotoPDI/REUSJBMA_piscine-soleil-hotel-blue-margouillat-sejours-la-reunion-tui.jpg",
+  "links": ["https://www.tui.fr/hotel-blue-margouillat_REUSJBMA/"],
+  "total": 7300,
+  "type": "operator",
+  "operator": "TUI"
 }
 ]
